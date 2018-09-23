@@ -12,7 +12,6 @@
 					<code>- <i>Sorry for the name and email, they're look not pretty because I can't use Faker on Heroku</i></code>
 					<br>
 					<code>- <i>This demo built with Laravel and VueJS</i></code>
-
 				</div>
 				<div class="input-search">
 					<b-field>
