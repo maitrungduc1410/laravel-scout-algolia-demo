@@ -7,10 +7,10 @@
 				</div>
 				<br>
 				<div class="text-description">
-					<code>- This page demo using Laravel Scout with Algolia in Realtime search</code>
+					<code>- Enter anything to search. Search result will be processed and returned by Algolia</code>
 					<br>
-					<code>- Enter anything to search. The search result will be processed and returned by Algolia</code>
 					<code>- <i>Sorry for the name and email, they're look not pretty because I can't use Faker on Heroku</i></code>
+					<br>
 					<code>- <i>This demo built with Laravel and VueJS</i></code>
 
 				</div>

@@ -50655,17 +50655,11 @@ var staticRenderFns = [
     return _c("div", { staticClass: "text-description" }, [
       _c("code", [
         _vm._v(
-          "- This page demo using Laravel Scout with Algolia in Realtime search"
+          "- Enter anything to search. Search result will be processed and returned by Algolia"
         )
       ]),
       _vm._v(" "),
       _c("br"),
-      _vm._v(" "),
-      _c("code", [
-        _vm._v(
-          "- Enter anything to search. The search result will be processed and returned by Algolia"
-        )
-      ]),
       _vm._v(" "),
       _c("code", [
         _vm._v("- "),
@@ -50675,6 +50669,8 @@ var staticRenderFns = [
           )
         ])
       ]),
+      _vm._v(" "),
+      _c("br"),
       _vm._v(" "),
       _c("code", [
         _vm._v("- "),
