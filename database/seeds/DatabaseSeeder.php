@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,13 +14,13 @@ class DatabaseSeeder extends Seeder
     {
         // factory(User::class, 7500)->create();
         for ($i=0; $i < 7500; $i++) { 
-	         DB::table('users')->insert([
-	            'name' => str_random(3).' '.str_random(3).' '.str_random(3),
-		        'email' => str_random(3).' '.str_random(3).' '.str_random(3).'@gmail.com',
-		        'email_verified_at' => now(),
-		        'password' => bcrypt('123456'), // secret
-		        'remember_token' => str_random(10),
-	        ]);
+        	$user = new User();
+        	$user->name = str_random(3).' '.str_random(3).' '.str_random(3);
+        	$user->email = str_random(3).' '.str_random(3).' '.str_random(3).'@gmail.com';
+        	$user->email_verified_at = now();
+        	$user->password = bcrypt('123456');
+        	$user->remember_token = str_random(10);
+	    	$user->save();
 	    }
     }
 }
