@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // factory(User::class, 7500)->create();
-        for ($i=0; $i < 1000; $i++) { 
+        for ($i=0; $i < 7500; $i++) { 
 	         DB::table('users')->insert([
 	            'name' => str_random(3).' '.str_random(3).' '.str_random(3),
 		        'email' => str_random(3).' '.str_random(3).' '.str_random(3).'@gmail.com',
