@@ -50456,6 +50456,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 	data: function data() {
@@ -50658,7 +50661,25 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c("code", [_vm._v("- In this page we have 7500 records")])
+      _c("code", [
+        _vm._v(
+          "- Enter anything to search. The search result will be processed and returned by Algolia"
+        )
+      ]),
+      _vm._v(" "),
+      _c("code", [
+        _vm._v("- "),
+        _c("i", [
+          _vm._v(
+            "Sorry for the name and email, they're look not pretty because I can't use Faker on Heroku"
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("code", [
+        _vm._v("- "),
+        _c("i", [_vm._v("This demo built with Laravel and VueJS")])
+      ])
     ])
   }
 ]
